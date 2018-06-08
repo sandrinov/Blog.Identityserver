@@ -1,0 +1,31 @@
+﻿@using  Blog.IdentityServer.Controllers
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h2>Error</h2>
+
+<div>
+    <h4>An Error Occurred</h4>
+    <hr />
+    <dl class="dl-horizontal"></dl>
+</div>
+<div>
+    @Model.Error.Error
+</div>
+<p>
+    Request ID @Model.Error.RequestId
+</p>
+<p>
+    Request ID @Model.Error.ErrorDescription
+</p>
+<p>
+    Request ID @Model.Error.RedirectUri
+</p>
+<p>
+    Request ID @Model.Error.ResponseMode
+</p>
+<p>
+    Request ID @Model.Error.UiLocales
+</p>
