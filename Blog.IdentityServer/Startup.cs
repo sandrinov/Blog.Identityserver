@@ -15,6 +15,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Blog.IdentityServer
 {
+    //Startup
     public class Startup
     {
         public IConfiguration Configuration { get; }
